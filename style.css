@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+aside {
+  background-image: url("images/bluesky.jpg");
+  background-repeat: no-repeat;
+  padding: 2%; }
+  aside .wrapper {
+    width: 75%;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: pink; }
+    aside .wrapper h3 {
+      font-style: 16.8px; }
+    aside .wrapper li {
+      list-style: none;
+      padding: 2%; }
+      aside .wrapper li a {
+        text-decoration: none; }
+
+.zen-resources, .design-archive, .design-selection {
+  margin: 5% auto; }
+
+footer {
+  background-image: url("images/bluesky.jpg");
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  background-image: url("images/header.jpg");
+  display: flex;
+  width: 100%;
+  height: 50%;
+  padding: 5%;
+  flex-flow: row wrap;
+  object-fit: cover; }
+  header h1 {
+    margin-top: 60%; }
+  header h2 {
+    margin-top: 70%;
+    font-size: 25.2px; }
+
+.summary {
+  width: 90%;
+  margin: 5% auto;
+  padding: 5%;
+  text-align: center; }
+  .summary p:nth-child(2) {
+    background-color: lightgrey;
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 5%; }
+
+.preamble, .explanation {
+  background-image: image("image/road.jpg");
+  width: 95%;
+  margin: auto;
+  padding: 15%; }
+
+.supporting, .participation, .benefits, .requirements {
+  width: 95%;
+  margin: auto;
+  padding: 5%; }
+
+body {
+  background-color: #9199be;
+  font-size: 14px;
+  font-family: "Arial"; }
+
+/*# sourceMappingURL=style.css.map */
